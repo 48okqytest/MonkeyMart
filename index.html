@@ -256,7 +256,7 @@
   </div>
   <script type="text/javascript">
         (function(){
-                var encodedPassword = "MTgzNA=="; // base64 for 1834
+                var encodedPassword = "MTgzNA==";
                 var gateOverlay = document.getElementById('access-gate');
                 var appContainer = document.getElementById('app-container');
                 var gateForm = document.getElementById('gate-form');
@@ -492,6 +492,7 @@
 				isLoadFinished = true;
 			}
 		});
+
         Module['onRuntimeInitialized'] = function() {
                         var startApp = function() {
                                 Module.runApp("canvas", extra_params);
